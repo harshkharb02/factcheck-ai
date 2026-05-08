@@ -4,8 +4,8 @@ A deployed Streamlit web app that automatically fact-checks PDFs by extracting v
 
 ## 🚀 Live Demo
 
-> **Deployed App:** `https://your-app.streamlit.app`
-> *(Replace with your Streamlit Cloud URL after deployment)*
+> **Deployed App:** `https://factcheck-ai-9v7npaz23hhqzyqhzptetv.streamlit.app/`
+> 
 
 ## 🎯 What It Does
 
@@ -21,7 +21,7 @@ A deployed Streamlit web app that automatically fact-checks PDFs by extracting v
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/yourusername/factcheck-ai.git
+git clone https://github.com/harshkharb02/factcheck-ai.git
 cd factcheck-ai
 
 # 2. Install dependencies
@@ -32,19 +32,6 @@ streamlit run app.py
 ```
 
 You'll be prompted to enter your Gemini API key in the sidebar.
-
-### Streamlit Cloud Deployment (Free)
-
-1. Push this repo to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect your GitHub repo → select `app.py`
-4. In **Advanced Settings → Secrets**, add:
-   ```toml
-   GEMINI_API_KEY = "AIza..."
-   ```
-5. Click **Deploy** → your app is live in ~2 minutes
-
-> **Note:** The app can also accept the API key via the sidebar UI at runtime — no secrets needed for testing.
 
 ## 🏗️ Architecture
 
