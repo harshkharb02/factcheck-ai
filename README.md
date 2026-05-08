@@ -4,8 +4,7 @@ A deployed Streamlit web app that automatically fact-checks PDFs by extracting v
 
 ## 🚀 Live Demo
 
-> **Deployed App:** `https://factcheck-ai-9v7npaz23hhqzyqhzptetv.streamlit.app/`
-> 
+ [Deployed App]: (https://factcheck-ai-9v7npaz23hhqzyqhzptetv.streamlit.app/)
 
 ## 🎯 What It Does
 
